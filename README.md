@@ -40,6 +40,9 @@ In your terminal
 ./NYCU
 ```
 
+## Demo
+[Youtube](https://www.youtube.com/playlist?list=PLFczgECsVJtklpnCJbqvZXULZu-k76s_O)
+
 ## Appendix and FAQ
 
 :::info
@@ -47,5 +50,4 @@ In your terminal
 Send an email to ctfang.cs08@nctu.edu.tw
 :::
 
-###### tags: `Project` `Documentation`
-
+###### tags: `Project`
