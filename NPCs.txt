@@ -1,0 +1,23 @@
+Apple
+Your next computer, is not a computer.
+2
+iPad 10 100 100
+iPhone 10 5 5
+HuaTung
+I have every book you want~
+3
+Calculus 100 300 300
+DS 50 80 80
+English 20 30 30
+Mcdonald's
+I'm lovin' it
+3
+BigMac 30 0 0
+FrenchFries 30 0 0
+Nuggets 50 0 0
+BurgerKing
+The king of burger.
+3
+Whopper 50 0 0
+AngusBurger 30 0 0
+DoubleBBQ 30 0 0
