@@ -1,14 +1,18 @@
-Apple
+Apple101
 Your next computer, is not a computer.
 2
-iPad 10 100 100
-iPhone 10 5 5
+iPad 20 80 100
+iPhone 15 30 20
+AppleXinYi
+Your next computer, is not a computer.
+1
+AirPods 10 30 30
 HuaTung
 I have every book you want~
 3
-Calculus 100 300 300
+Calculus 80 150 120
 DS 50 80 80
-English 20 30 30
+English 20 30 40
 Mcdonald's
 I'm lovin' it
 3

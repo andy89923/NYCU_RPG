@@ -69,8 +69,8 @@ bool Monster::triggerEvent(Object* obj) {
                 }
                 // Buff rand
                 int hp = this -> getAttack() * 0.5;
-                int at = this -> getDefense() * 0.8; 
-                int df = this -> getAttack() * 0.8;
+                int df = this -> getDefense() * 0.8; 
+                int at = this -> getAttack() * 0.8;
 
                 Item buff(this -> getName() + "_Buff", hp, at, df);
                 cout << buff << '\n';

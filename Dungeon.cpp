@@ -92,7 +92,7 @@ void Dungeon::createMap() {
 
 	int ptrNpc = 0;
 	for (int i = 1; i < maxRoom; i += rand() % 3) {
-		rooms[i].pushObject(npcs[ptrNpc++]);
+		rooms[i].pushObject(new NPC(npcs[ptrNpc++]));
 		
 		if (ptrNpc == npcs.size()) ptrNpc = 2;
 	}
@@ -122,12 +122,16 @@ void Dungeon::handleMovement() {
 	if (ope == "l" && lf != NULL) player.setCurrentRoom(lf);
 	if (ope == "r" && rg != NULL) player.setCurrentRoom(rg);
 	if (ope == "f" && isExit && player.getIsWin()) {
-		cout << "Congratulation!, You win the games\n";
+		cout << "Congratulation!, You gratuate from NYCU\n";
 		exit(0);
 	}
 	int r = rand(), tmp = RAND_MAX / 3;
 	if (r < tmp && pm != player.getCurrentRoom()) {
-		player.getCurrentRoom() -> pushObject(new Monster(monsters[rand() % monsters.size() + 2]));
+		player.getCurrentRoom() -> pushObject(new Monster(monsters[rand() % (monsters.size() - 1) + 1]));
+	}
+	r = rand(), tmp = RAND_MAX / 5;
+	if (r < tmp && pm != player.getCurrentRoom()) {
+		player.getCurrentRoom() -> pushObject(new NPC(npcs[rand() % (npcs.size() - 2) + 2]));
 	}
 }
 

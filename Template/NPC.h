@@ -18,6 +18,7 @@ private:
     vector<Item> commodity;
 public:
     NPC();
+    NPC(const NPC*);
     NPC(string, string, vector<Item>);
     void listCommodity(); /*print all the Item in this NPC*/
 
@@ -29,8 +30,8 @@ public:
     /* Set & Get function*/
     void setScript(string);
     void setCommodity(vector<Item>);
-    string getScript();
-    vector<Item> getCommodity();
+    string getScript() const;
+    vector<Item> getCommodity() const;
 
     void listInfo(ofstream&) const;
 

@@ -8,6 +8,16 @@ NPC::NPC(string nam, string scr, vector<Item> v): GameCharacter(nam, "np", 10, 1
 	this -> commodity = v;
 }
 
+NPC::NPC(const NPC* now) {
+	this -> setName(now -> getName());
+    this -> setTag(now -> getTag());
+    this -> setMaxHealth(now -> getMaxHealth());
+    this -> setCurrentHealth(now -> getCurrentHealth());
+    this -> setAttack(now -> getAttack());
+    this -> setDefense(now -> getDefense());
+    this -> setCommodity(now -> getCommodity());
+}
+
 void NPC::listCommodity() {
 	cout << getScript() << '\n';
 	cout << "Number of Items(s): " << commodity.size() << '\n';
@@ -53,11 +63,11 @@ void NPC::setCommodity(vector<Item> v) {
 	this -> commodity = v;
 }
 
-string NPC::getScript() {
+string NPC::getScript() const {
 	return this -> script;
 }
 
-vector<Item> NPC::getCommodity() {
+vector<Item> NPC::getCommodity() const {
 	return this -> commodity;
 }
 
