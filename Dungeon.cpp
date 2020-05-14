@@ -94,7 +94,7 @@ void Dungeon::createMap() {
 	for (int i = 1; i < maxRoom; i += rand() % 3) {
 		rooms[i].pushObject(new NPC(npcs[ptrNpc++]));
 		
-		if (ptrNpc == npcs.size()) ptrNpc = 2;
+		if (ptrNpc == npcs.size()) ptrNpc = 3;
 	}
 }
 

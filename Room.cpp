@@ -94,16 +94,16 @@ void Room::listAttack() const {
 	bool ok = false;
 	for (auto i : objects) {
 		Monster* monptr = dynamic_cast<Monster*>(i);
-		NPC* npcptr = dynamic_cast<NPC*>(i);
+		// NPC* npcptr = dynamic_cast<NPC*>(i);
 
 		if (monptr != NULL) {
 			ok = 1;
 			cout << *monptr << '\n';
 		}
-		if (npcptr != NULL) {
-			ok = 1;
-			cout << *npcptr << '\n';
-		}
+		// if (npcptr != NULL) {
+		// 	ok = 1;
+		// 	cout << *npcptr << '\n';
+		// }
 	}
 	if (!ok) cout << "There is no target can attack\n";
 }
