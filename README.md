@@ -10,7 +10,7 @@ NYCU RPG
 
 You can also watch this [file](https://hackmd.io/@CTFang/ByMLBt9cU) via HackMD.
 
-Also, you can watch [Demo](https://youtu.be/nFaFNjdoRf4)
+Also, you can watch [Demo](https://www.youtube.com/playlist?list=PLFczgECsVJtklpnCJbqvZXULZu-k76s_O)
 
 [TOC]
 
