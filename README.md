@@ -10,6 +10,8 @@ NYCU RPG
 
 You can also watch this [file](https://hackmd.io/@CTFang/ByMLBt9cU) via HackMD.
 
+Github [Link](https://github.com/andy89923/NYCU_RPG)
+
 Also, you can watch [Demo](https://www.youtube.com/playlist?list=PLFczgECsVJtklpnCJbqvZXULZu-k76s_O)
 
 [TOC]
